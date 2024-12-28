@@ -35,3 +35,20 @@ Before running the project, ensure you have the following installed:
    ```bash
    git clone https://github.com/SadiaIslam989/EMS_Project.git
    cd EMS_Project
+
+
+   define('DB_SERVER', 'localhost');
+define('DB_USERNAME', 'root');
+define('DB_PASSWORD', '');
+define('DB_NAME', 'ems_db');
+
+http://localhost/EMS_Project
+
+EMS_Project/
+├── assets/             # CSS, JS, and image files
+├── config/             # Configuration files
+├── includes/           # Reusable PHP components (e.g., header, footer)
+├── pages/              # Main pages (e.g., dashboard, login)
+├── sql/                # Database dump file
+├── README.md           # Project documentation
+
